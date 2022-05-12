@@ -1,7 +1,7 @@
 provider "aws"{
         region= "us-east-1"
-        access_key= "AKIASHTTTSUCCP6LPJEX"
-        secret_key= "Q9uwhCwlbVPBr+i6v2+VEWQKy3pfovLKTVD3/xYZ"
+        access_key= "<your access key value>"
+        secret_key= "<your secret access key value>"
 
 }
 variable "ami"{}				# configure(in key-value pair) this variable in, terraform cloud variable section
